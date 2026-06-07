@@ -1,0 +1,668 @@
+[
+  {
+    "id": 1,
+    "name": "John Doe",
+    "username": "@johndoe",
+    "email": "john@example.com",
+    "state": "Kosovo",
+    "status": "active",
+    "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=John",
+    "verified": true,
+    "isContentCreator": true,
+    "bio": "Digital creator and influencer",
+    "followers": 125000,
+    "following": 450,
+    "coinBalance": 5000,
+    "giftBalance": 42,
+    "totalSpentOnCoins": 15000,
+    "releaseDate": "2023-01-01",
+    "isLive": false,
+    "banStatus": "active",
+    "date": "2023-01-01",
+    "details": [{ "phone": "123-456", "address": "Street 1" }],
+    "transactionHistory": [
+      {
+        "id": "t1",
+        "date": "2024-04-28",
+        "type": "coin_purchase",
+        "amount": 500,
+        "coins": 5000,
+        "status": "completed",
+        "description": "Purchased 5000 coins"
+      },
+      {
+        "id": "t2",
+        "date": "2024-04-25",
+        "type": "coin_purchase",
+        "amount": 250,
+        "coins": 2500,
+        "status": "completed",
+        "description": "Purchased 2500 coins"
+      },
+      {
+        "id": "t3",
+        "date": "2024-04-20",
+        "type": "gift_sent",
+        "amount": 250,
+        "coins": 250,
+        "status": "completed",
+        "description": "Sent 250 coins"
+      }
+    ],
+    "giftHistory": [
+      {
+        "id": "g1",
+        "giftId": "rose",
+        "giftName": "Rose",
+        "quantity": 5,
+        "totalCost": 250,
+        "dateSent": "2024-04-28",
+        "recipientName": "Emma Wilson",
+        "recipientId": 6
+      },
+      {
+        "id": "g2",
+        "giftId": "heart",
+        "giftName": "Heart",
+        "quantity": 10,
+        "totalCost": 300,
+        "dateSent": "2024-04-25",
+        "recipientName": "Michael Green",
+        "recipientId": 5
+      }
+    ],
+    "receivedGifts": [
+      {
+        "id": "r1",
+        "giftId": "diamond",
+        "giftName": "Diamond",
+        "quantity": 15,
+        "totalValue": 1500,
+        "dateReceived": "2024-04-26",
+        "senderName": "Jane Smith",
+        "senderId": 2
+      }
+    ],
+    "earnings": {
+      "totalEarnings": 3500,
+      "thisMonth": 1200,
+      "lastMonth": 800,
+      "pendingBalance": 450
+    },
+    "payoutHistory": [
+      {
+        "id": "p1",
+        "date": "2024-04-20",
+        "amount": 500,
+        "method": "bank_transfer",
+        "status": "completed",
+        "transactionId": "TXN20240420001"
+      }
+    ],
+    "payoutInfo": {
+      "bankName": "Community Bank",
+      "accountHolder": "John Doe",
+      "accountNumber": "****1234",
+      "status": "verified",
+      "lastUpdated": "2024-04-01"
+    },
+    "liveStreamHistory": [
+      {
+        "id": "live1",
+        "date": "2024-04-28",
+        "title": "Sunday Gaming Session",
+        "duration": 120,
+        "viewers": 5420,
+        "giftsReceived": 450,
+        "earnings": 450
+      },
+      {
+        "id": "live2",
+        "date": "2024-04-27",
+        "title": "Q&A with Followers",
+        "duration": 90,
+        "viewers": 3200,
+        "giftsReceived": 280,
+        "earnings": 280
+      },
+      {
+        "id": "live3",
+        "date": "2024-04-21",
+        "title": "Live Cooking Show",
+        "duration": 150,
+        "viewers": 8100,
+        "giftsReceived": 720,
+        "earnings": 720
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Jane Smith",
+    "username": "@janesmith",
+    "email": "jane@example.com",
+    "state": "United States",
+    "status": "active",
+    "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=Jane",
+    "verified": true,
+    "isContentCreator": true,
+    "bio": "Fashion & Beauty Influencer",
+    "followers": 250000,
+    "following": 320,
+    "coinBalance": 8000,
+    "giftBalance": 65,
+    "totalSpentOnCoins": 22000,
+    "releaseDate": "2023-02-01",
+    "isLive": true,
+    "banStatus": "active",
+    "date": "2023-02-01",
+    "details": [{ "phone": "789-012", "address": "Street 2" }],
+    "transactionHistory": [
+      {
+        "id": "t4",
+        "date": "2024-04-29",
+        "type": "coin_purchase",
+        "amount": 750,
+        "coins": 7500,
+        "status": "completed",
+        "description": "Purchased 7500 coins"
+      }
+    ],
+    "giftHistory": [
+      {
+        "id": "g4",
+        "giftId": "diamond",
+        "giftName": "Diamond",
+        "quantity": 8,
+        "totalCost": 800,
+        "dateSent": "2024-04-27",
+        "recipientName": "Olivia Thomas",
+        "recipientId": 10
+      }
+    ],
+    "receivedGifts": [
+      {
+        "id": "r3",
+        "giftId": "crown",
+        "giftName": "Crown",
+        "quantity": 25,
+        "totalValue": 2500,
+        "dateReceived": "2024-04-28",
+        "senderName": "John Doe",
+        "senderId": 1
+      }
+    ],
+    "earnings": {
+      "totalEarnings": 8500,
+      "thisMonth": 3200,
+      "lastMonth": 2100,
+      "pendingBalance": 1200
+    },
+    "payoutHistory": [
+      {
+        "id": "p4",
+        "date": "2024-04-15",
+        "amount": 2000,
+        "method": "bank_transfer",
+        "status": "completed",
+        "transactionId": "TXN20240415001"
+      }
+    ],
+    "payoutInfo": {
+      "bankName": "Global Finance Bank",
+      "accountHolder": "Jane Smith",
+      "accountNumber": "****5678",
+      "status": "verified",
+      "lastUpdated": "2024-03-15"
+    },
+    "liveStreamHistory": [
+      {
+        "id": "live6",
+        "date": "2024-04-29",
+        "title": "Fashion Haul & Review",
+        "duration": 180,
+        "viewers": 12500,
+        "giftsReceived": 1200,
+        "earnings": 1200
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Bob Johnson",
+    "username": "@bobjohnson",
+    "email": "bob@example.com",
+    "state": "Canada",
+    "status": "inactive",
+    "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=Bob",
+    "verified": false,
+    "isContentCreator": false,
+    "bio": "Just a regular user",
+    "followers": 5420,
+    "following": 1200,
+    "coinBalance": 1500,
+    "giftBalance": 12,
+    "totalSpentOnCoins": 3000,
+    "releaseDate": "2023-03-01",
+    "isLive": false,
+    "banStatus": "active",
+    "date": "2023-03-01",
+    "details": [{ "phone": "345-678", "address": "Street 3" }],
+    "transactionHistory": [],
+    "giftHistory": [],
+    "receivedGifts": [],
+    "earnings": {
+      "totalEarnings": 0,
+      "thisMonth": 0,
+      "lastMonth": 0,
+      "pendingBalance": 0
+    },
+    "payoutHistory": [],
+    "payoutInfo": null,
+    "liveStreamHistory": []
+  },
+  {
+    "id": 4,
+    "name": "Alice Brown",
+    "username": "@alicebrown",
+    "email": "alice@example.com",
+    "state": "United Kingdom",
+    "status": "active",
+    "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=Alice",
+    "verified": true,
+    "isContentCreator": true,
+    "bio": "Gaming Streamer & Content Creator",
+    "followers": 180000,
+    "following": 280,
+    "coinBalance": 6500,
+    "giftBalance": 88,
+    "totalSpentOnCoins": 18000,
+    "releaseDate": "2023-04-01",
+    "isLive": true,
+    "banStatus": "active",
+    "date": "2023-04-01",
+    "details": [{ "phone": "111-222", "address": "Street 4" }],
+    "transactionHistory": [],
+    "giftHistory": [],
+    "receivedGifts": [],
+    "earnings": {
+      "totalEarnings": 6200,
+      "thisMonth": 2100,
+      "lastMonth": 1500,
+      "pendingBalance": 800
+    },
+    "payoutHistory": [],
+    "payoutInfo": {
+      "bankName": "Premium Bank",
+      "accountHolder": "Alice Brown",
+      "accountNumber": "****9012",
+      "status": "verified",
+      "lastUpdated": "2024-04-01"
+    },
+    "liveStreamHistory": []
+  },
+  {
+    "id": 5,
+    "name": "Michael Green",
+    "username": "@michaelgreen",
+    "email": "michael@example.com",
+    "state": "Germany",
+    "status": "inactive",
+    "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=Michael",
+    "verified": false,
+    "isContentCreator": false,
+    "bio": "Tech enthusiast",
+    "followers": 12000,
+    "following": 850,
+    "coinBalance": 3000,
+    "giftBalance": 25,
+    "totalSpentOnCoins": 8000,
+    "releaseDate": "2023-05-01",
+    "isLive": false,
+    "banStatus": "active",
+    "date": "2023-05-01",
+    "details": [{ "phone": "333-444", "address": "Street 5" }],
+    "transactionHistory": [],
+    "giftHistory": [],
+    "receivedGifts": [],
+    "earnings": {
+      "totalEarnings": 0,
+      "thisMonth": 0,
+      "lastMonth": 0,
+      "pendingBalance": 0
+    },
+    "payoutHistory": [],
+    "payoutInfo": null,
+    "liveStreamHistory": []
+  },
+  {
+    "id": 6,
+    "name": "Emma Wilson",
+    "username": "@emmawilson",
+    "email": "emma@example.com",
+    "state": "Australia",
+    "status": "inactive",
+    "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=Emma",
+    "verified": true,
+    "isContentCreator": true,
+    "bio": "Travel & Lifestyle Creator",
+    "followers": 95000,
+    "following": 400,
+    "coinBalance": 4000,
+    "giftBalance": 35,
+    "totalSpentOnCoins": 12000,
+    "releaseDate": "2023-06-01",
+    "isLive": false,
+    "banStatus": "active",
+    "date": "2023-06-01",
+    "details": [{ "phone": "555-666", "address": "Street 6" }],
+    "transactionHistory": [],
+    "giftHistory": [],
+    "receivedGifts": [],
+    "earnings": {
+      "totalEarnings": 4500,
+      "thisMonth": 1500,
+      "lastMonth": 1200,
+      "pendingBalance": 600
+    },
+    "payoutHistory": [],
+    "payoutInfo": {
+      "bankName": "Travel Bank International",
+      "accountHolder": "Emma Wilson",
+      "accountNumber": "****3456",
+      "status": "verified",
+      "lastUpdated": "2024-02-15"
+    },
+    "liveStreamHistory": []
+  },
+  {
+    "id": 7,
+    "name": "Daniel Taylor",
+    "username": "@danieltaylor",
+    "email": "daniel@example.com",
+    "state": "France",
+    "status": "active",
+    "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=Daniel",
+    "verified": false,
+    "isContentCreator": false,
+    "bio": "Sports enthusiast",
+    "followers": 8500,
+    "following": 750,
+    "coinBalance": 2000,
+    "giftBalance": 18,
+    "totalSpentOnCoins": 5000,
+    "releaseDate": "2023-07-01",
+    "isLive": false,
+    "banStatus": "active",
+    "date": "2023-07-01",
+    "details": [{ "phone": "777-888", "address": "Street 7" }],
+    "transactionHistory": [],
+    "giftHistory": [],
+    "receivedGifts": [],
+    "earnings": {
+      "totalEarnings": 0,
+      "thisMonth": 0,
+      "lastMonth": 0,
+      "pendingBalance": 0
+    },
+    "payoutHistory": [],
+    "payoutInfo": null,
+    "liveStreamHistory": []
+  },
+  {
+    "id": 8,
+    "name": "Sophia Martinez",
+    "username": "@sophiamartinez",
+    "email": "sophia@example.com",
+    "state": "Kosovo",
+    "status": "active",
+    "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=Sophia",
+    "verified": true,
+    "isContentCreator": true,
+    "bio": "Music Producer",
+    "followers": 75000,
+    "following": 500,
+    "coinBalance": 5500,
+    "giftBalance": 45,
+    "totalSpentOnCoins": 16000,
+    "releaseDate": "2023-08-01",
+    "isLive": false,
+    "banStatus": "active",
+    "date": "2023-08-01",
+    "details": [{ "phone": "999-000", "address": "Street 8" }],
+    "transactionHistory": [],
+    "giftHistory": [],
+    "receivedGifts": [],
+    "earnings": {
+      "totalEarnings": 5200,
+      "thisMonth": 1800,
+      "lastMonth": 1200,
+      "pendingBalance": 500
+    },
+    "payoutHistory": [],
+    "payoutInfo": null,
+    "liveStreamHistory": []
+  },
+  {
+    "id": 9,
+    "name": "Olivia Thomas",
+    "username": "@oliviathomas",
+    "email": "olivia@example.com",
+    "state": "Spain",
+    "status": "active",
+    "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=Olivia",
+    "verified": true,
+    "isContentCreator": true,
+    "bio": "Fitness Coach & Influencer",
+    "followers": 132000,
+    "following": 310,
+    "coinBalance": 7200,
+    "giftBalance": 60,
+    "totalSpentOnCoins": 20000,
+    "releaseDate": "2023-09-01",
+    "isLive": true,
+    "banStatus": "active",
+    "date": "2023-09-01",
+    "details": [{ "phone": "101-202", "address": "Street 9" }],
+    "transactionHistory": [
+      {
+        "id": "t9",
+        "date": "2024-04-30",
+        "type": "coin_purchase",
+        "amount": 1000,
+        "coins": 10000,
+        "status": "completed",
+        "description": "Purchased 10000 coins"
+      }
+    ],
+    "giftHistory": [],
+    "receivedGifts": [],
+    "earnings": {
+      "totalEarnings": 7800,
+      "thisMonth": 2500,
+      "lastMonth": 1800,
+      "pendingBalance": 900
+    },
+    "payoutHistory": [],
+    "payoutInfo": {
+      "bankName": "Fitness Bank",
+      "accountHolder": "Olivia Thomas",
+      "accountNumber": "****1111",
+      "status": "verified",
+      "lastUpdated": "2024-03-01"
+    },
+    "liveStreamHistory": [
+      {
+        "id": "live9",
+        "date": "2024-04-30",
+        "title": "Morning Workout",
+        "duration": 60,
+        "viewers": 6400,
+        "giftsReceived": 500,
+        "earnings": 500
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "name": "Ethan Clark",
+    "username": "@ethanclark",
+    "email": "ethan@example.com",
+    "state": "Netherlands",
+    "status": "active",
+    "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=Ethan",
+    "verified": false,
+    "isContentCreator": false,
+    "bio": "Student & Gamer",
+    "followers": 4200,
+    "following": 600,
+    "coinBalance": 900,
+    "giftBalance": 5,
+    "totalSpentOnCoins": 1200,
+    "releaseDate": "2023-10-01",
+    "isLive": false,
+    "banStatus": "active",
+    "date": "2023-10-01",
+    "details": [{ "phone": "303-404", "address": "Street 10" }],
+    "transactionHistory": [],
+    "giftHistory": [],
+    "receivedGifts": [],
+    "earnings": {
+      "totalEarnings": 0,
+      "thisMonth": 0,
+      "lastMonth": 0,
+      "pendingBalance": 0
+    },
+    "payoutHistory": [],
+    "payoutInfo": null,
+    "liveStreamHistory": []
+  },
+  {
+    "id": 11,
+    "name": "Lucas Anderson",
+    "username": "@lucasanderson",
+    "email": "lucas@example.com",
+    "state": "Sweden",
+    "status": "active",
+    "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=Lucas",
+    "verified": true,
+    "isContentCreator": true,
+    "bio": "Tech Reviewer",
+    "followers": 210000,
+    "following": 190,
+    "coinBalance": 9100,
+    "giftBalance": 70,
+    "totalSpentOnCoins": 25000,
+    "releaseDate": "2023-11-01",
+    "isLive": true,
+    "banStatus": "active",
+    "date": "2023-11-01",
+    "details": [{ "phone": "505-606", "address": "Street 11" }],
+    "transactionHistory": [
+      {
+        "id": "t11",
+        "date": "2024-04-28",
+        "type": "coin_purchase",
+        "amount": 1200,
+        "coins": 12000,
+        "status": "completed",
+        "description": "Purchased 12000 coins"
+      }
+    ],
+    "giftHistory": [],
+    "receivedGifts": [],
+    "earnings": {
+      "totalEarnings": 12000,
+      "thisMonth": 4000,
+      "lastMonth": 3000,
+      "pendingBalance": 1500
+    },
+    "payoutHistory": [],
+    "payoutInfo": {
+      "bankName": "Tech Bank",
+      "accountHolder": "Lucas Anderson",
+      "accountNumber": "****2222",
+      "status": "verified",
+      "lastUpdated": "2024-04-01"
+    },
+    "liveStreamHistory": [
+      {
+        "id": "live11",
+        "date": "2024-04-29",
+        "title": "New iPhone Review",
+        "duration": 140,
+        "viewers": 15000,
+        "giftsReceived": 1000,
+        "earnings": 1000
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "name": "Mia Rodriguez",
+    "username": "@miarodriguez",
+    "email": "mia@example.com",
+    "state": "Brazil",
+    "status": "active",
+    "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=Mia",
+    "verified": true,
+    "isContentCreator": true,
+    "bio": "Food Blogger",
+    "followers": 87000,
+    "following": 420,
+    "coinBalance": 4300,
+    "giftBalance": 38,
+    "totalSpentOnCoins": 14000,
+    "releaseDate": "2023-12-01",
+    "isLive": false,
+    "banStatus": "active",
+    "date": "2023-12-01",
+    "details": [{ "phone": "707-808", "address": "Street 12" }],
+    "transactionHistory": [],
+    "giftHistory": [],
+    "receivedGifts": [],
+    "earnings": {
+      "totalEarnings": 4800,
+      "thisMonth": 1700,
+      "lastMonth": 1300,
+      "pendingBalance": 650
+    },
+    "payoutHistory": [],
+    "payoutInfo": null,
+    "liveStreamHistory": []
+  },
+  {
+    "id": 13,
+    "name": "Noah Walker",
+    "username": "@noahwalker",
+    "email": "noah@example.com",
+    "state": "Switzerland",
+    "status": "active",
+    "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=Noah",
+    "verified": false,
+    "isContentCreator": false,
+    "bio": "Casual Viewer",
+    "followers": 1500,
+    "following": 300,
+    "coinBalance": 600,
+    "giftBalance": 3,
+    "totalSpentOnCoins": 900,
+    "releaseDate": "2024-01-01",
+    "isLive": false,
+    "banStatus": "active",
+    "date": "2024-01-01",
+    "details": [{ "phone": "909-010", "address": "Street 13" }],
+    "transactionHistory": [],
+    "giftHistory": [],
+    "receivedGifts": [],
+    "earnings": {
+      "totalEarnings": 0,
+      "thisMonth": 0,
+      "lastMonth": 0,
+      "pendingBalance": 0
+    },
+    "payoutHistory": [],
+    "payoutInfo": null,
+    "liveStreamHistory": []
+  }
+]

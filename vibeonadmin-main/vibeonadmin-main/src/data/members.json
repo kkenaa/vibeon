@@ -1,0 +1,128 @@
+[
+  {
+    "id": 1,
+    "name": "Alice Johnson",
+    "email": "alice@company.com",
+    "loginEmail": "alice@company.com",
+    "role": "Administrator",
+    "department": "Management",
+    "joinDate": "2023-01-15",
+    "status": "active",
+    "rights": {
+      "canEdit": true,
+      "canDelete": true,
+      "canManageUsers": true,
+      "canViewAnalytics": true,
+      "canManageMembers": true,
+      "canApproveTransactions": true,
+      "canViewReports": true,
+      "canManagePayments": true
+    },
+    "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=Alice"
+  },
+  {
+    "id": 2,
+    "name": "Bob Smith",
+    "email": "bob@company.com",
+    "loginEmail": "bob@company.com",
+    "role": "Manager",
+    "department": "Sales",
+    "joinDate": "2023-03-20",
+    "status": "active",
+    "rights": {
+      "canEdit": true,
+      "canDelete": false,
+      "canManageUsers": true,
+      "canViewAnalytics": true,
+      "canManageMembers": false,
+      "canApproveTransactions": true,
+      "canViewReports": true,
+      "canManagePayments": false
+    },
+    "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=Bob"
+  },
+  {
+    "id": 3,
+    "name": "Carol White",
+    "email": "carol@company.com",
+    "loginEmail": "carol@company.com",
+    "role": "Supervisor",
+    "department": "Operations",
+    "joinDate": "2023-05-10",
+    "status": "active",
+    "rights": {
+      "canEdit": true,
+      "canDelete": false,
+      "canManageUsers": false,
+      "canViewAnalytics": true,
+      "canManageMembers": false,
+      "canApproveTransactions": false,
+      "canViewReports": true,
+      "canManagePayments": false
+    },
+    "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=Carol"
+  },
+  {
+    "id": 4,
+    "name": "David Brown",
+    "email": "david@company.com",
+    "loginEmail": "david@company.com",
+    "role": "Employee",
+    "department": "Support",
+    "joinDate": "2023-07-08",
+    "status": "active",
+    "rights": {
+      "canEdit": false,
+      "canDelete": false,
+      "canManageUsers": false,
+      "canViewAnalytics": false,
+      "canManageMembers": false,
+      "canApproveTransactions": false,
+      "canViewReports": false,
+      "canManagePayments": false
+    },
+    "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=David"
+  },
+  {
+    "id": 5,
+    "name": "Emma Davis",
+    "email": "emma@company.com",
+    "loginEmail": "emma@company.com",
+    "role": "Manager",
+    "department": "Marketing",
+    "joinDate": "2023-09-12",
+    "status": "active",
+    "rights": {
+      "canEdit": true,
+      "canDelete": false,
+      "canManageUsers": true,
+      "canViewAnalytics": true,
+      "canManageMembers": false,
+      "canApproveTransactions": false,
+      "canViewReports": true,
+      "canManagePayments": false
+    },
+    "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=Emma"
+  },
+  {
+    "id": 6,
+    "name": "Frank Miller",
+    "email": "frank@company.com",
+    "loginEmail": "frank@company.com",
+    "role": "Employee",
+    "department": "Development",
+    "joinDate": "2023-11-05",
+    "status": "active",
+    "rights": {
+      "canEdit": false,
+      "canDelete": false,
+      "canManageUsers": false,
+      "canViewAnalytics": false,
+      "canManageMembers": false,
+      "canApproveTransactions": false,
+      "canViewReports": false,
+      "canManagePayments": false
+    },
+    "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=Frank"
+  }
+]
